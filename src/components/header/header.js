@@ -39,15 +39,6 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/experience"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                >
-                  Experience
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
                   to="/projects"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
@@ -57,11 +48,11 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/opensource"
+                  to="/achivements"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                 >
-                  Open Source
+                  Achievements
                 </NavLink>
               </li>
               <li>
