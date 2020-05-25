@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Fade } from 'react-reveal';
 import {greeting} from '../../data';
 import './greeting.css';
+import emoji from "react-easy-emoji";
+
 
 class Greeting extends Component {
   render() {
@@ -11,7 +13,7 @@ class Greeting extends Component {
           <div className="greeting-main">
             <div className="greeting-text-div">
               <div>
-                <h1 className="greeting-text">{greeting.title}</h1>
+                <h1 className="greeting-text">Hi! I am Nimesha Dilini <span className="wave-emoji">{emoji("👋")}</span> </h1>
                 <h2 className="greeting-nickname">( {greeting.subtitle} )</h2>
                 <p className="greeting-text-p subTitle">{greeting.desc}</p>
                 {/* <SocialMedia /> */}
