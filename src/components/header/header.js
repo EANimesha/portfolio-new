@@ -9,7 +9,7 @@ class Header extends Component {
       <Fade top duration={1000} distance="20px">
         <div>
           <header className="header">
-            <NavLink to="/splash" tag={Link} className="logo">
+            <NavLink to="/" tag={Link} className="logo">
               <span className="grey-color"> &lt;</span>
               <span className="logo-name">Nimesha_Dilini</span>
               <span className="grey-color">/&gt;</span>

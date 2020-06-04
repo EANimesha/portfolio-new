@@ -26,7 +26,7 @@ class Greeting extends Component {
             <div className="greeting-image-div">
               <img
                 alt="saad sitting on table"
-                src={require("../../assets/images/home_img.jpg")}
+                src={require("../../assets/images/pp.jpg")}
               ></img>
             </div>
           </div>
