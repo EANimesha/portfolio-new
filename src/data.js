@@ -12,8 +12,8 @@ export const greeting = {
 export const skills = {
 	data: [
 	  {
-		title: "Data Science & AI",
-		imagePath: "data_science.svg",
+		title: "Frontend Web Development",
+		imagePath: "web_dev.svg",
 		skills: [
 		  "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
 		  "⚡ Experience of working with Computer Vision and NLP projects",
@@ -53,8 +53,8 @@ export const skills = {
 		]
 	  },
 	  {
-		title: "Full Stack Development",
-		imagePath: "fullstack.svg",
+		title: "Mobile App Development",
+		imagePath: "339674-PAVV1D-900.jpg",
 		skills: [
 		  "⚡ Building resposive website front end using React-Redux",
 		  "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
@@ -135,8 +135,8 @@ export const skills = {
 		]
 	  },
 	  {
-		title: "Cloud Infra-Architecture",
-		imagePath: "cloud_infrastructure.svg",
+		title: "Backend Developer",
+		imagePath: "backend_developer.jpg",
 		skills: [
 		  "⚡ Experience working on multiple cloud platforms",
 		  "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
@@ -203,8 +203,8 @@ export const skills = {
 		]
 	  },
 	  {
-		title: "UI/UX Design",
-		imagePath: "ui_ux_design.svg",
+		title: "Machine Learning And Cloud Developer",
+		imagePath: "backend_developer.jpg",
 		skills: [
 		  "⚡ Designing highly attractive user interface for mobile and web applications",
 		  "⚡ Customizing logo designs and building logos from scratch",
