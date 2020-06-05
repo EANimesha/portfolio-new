@@ -1,5 +1,5 @@
 .main {
-  width: 90%;
+  width: 100%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
@@ -40,7 +40,7 @@
 
 .greeting-nickname {
   font-size: 22px;
-  line-height: 0px;
+  line-height: 1.1;
   font-family: "Google Sans Bold Italic";
 }
 

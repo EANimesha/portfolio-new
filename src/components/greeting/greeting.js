@@ -3,7 +3,10 @@ import { Fade } from 'react-reveal';
 import {greeting} from '../../data';
 import './greeting.css';
 import emoji from "react-easy-emoji";
-import {} from '@material-ui/core/Icon';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 class Greeting extends Component {
   render() {
@@ -14,7 +17,7 @@ class Greeting extends Component {
             <div className="greeting-text-div">
               <div>
                 <h1 className="greeting-text">Hi! I am Nimesha Dilini <span className="wave-emoji">{emoji("👋")}</span> </h1>
-                <h2 className="greeting-nickname">( {greeting.subtitle} )</h2>
+                <h2 className="greeting-nickname">Software Engineering Undergraduate</h2>
                 <p className="greeting-text-p subTitle">{greeting.desc}</p>
                 {/* <SocialMedia /> */}
                 {/* <div className="button-greeting-div">
@@ -25,6 +28,13 @@ class Greeting extends Component {
             </div>
             <div className="greeting-image-div">
              <img src={require('../../assets/images/video.gif')} alt="loading..." />
+             <p></p>
+             <div>
+              <FacebookIcon style={{ fontSize: 50}}></FacebookIcon>
+              <LinkedInIcon style={{ fontSize: 50 }}></LinkedInIcon>
+              <EmailIcon style={{ fontSize: 50 }}></EmailIcon>
+              <GitHubIcon style={{ fontSize: 50 }}></GitHubIcon>
+            </div>
             </div>
             {/* <div className="greeting-image-div">
               <img
