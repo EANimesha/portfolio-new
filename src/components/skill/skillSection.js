@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Flip, Fade } from "react-reveal";
 import {skills} from '../../data';
+import './skill.css';
 
 class SkillSection extends Component {
   render() {
@@ -13,7 +14,7 @@ class SkillSection extends Component {
                 <div className="skills-image-div">
                   <img
                     alt="Ashutosh is Analysing Data"
-                    src={require(`../../assets/images/fullstack.svg`)}
+                    src={require(`../../assets/images/${skill.imagePath}`)}
                   ></img>
                 </div>
               </Flip>
