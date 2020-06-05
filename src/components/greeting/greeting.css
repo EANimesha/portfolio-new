@@ -53,8 +53,12 @@
   font-family: "Google Fredoka One";
 }
 
+.greeting-gif-div> img{
+  max-width: 60%;
+}
+
 .greeting-image-div > img {
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
   border-radius: 200px;
 }

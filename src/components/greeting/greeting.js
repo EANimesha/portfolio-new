@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal';
 import {greeting} from '../../data';
 import './greeting.css';
 import emoji from "react-easy-emoji";
-
+import {} from '@material-ui/core/Icon';
 
 class Greeting extends Component {
   render() {
@@ -24,11 +24,14 @@ class Greeting extends Component {
               </div>
             </div>
             <div className="greeting-image-div">
+             <img src={require('../../assets/images/video.gif')} alt="loading..." />
+            </div>
+            {/* <div className="greeting-image-div">
               <img
                 alt="saad sitting on table"
                 src={require("../../assets/images/pp.jpg")}
               ></img>
-            </div>
+            </div> */}
           </div>
         </div>
       </Fade>
