@@ -53,36 +53,36 @@ export const skills = {
 export const projects = {
   data: [
     {
-      name: "Blood Donation App",
-      date: "2018",
+      name: "Online Grocery Shop",
+      date: "2020-June To Ongoing",
       url: "https://github.com/EANimesha",
       description:
-        "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
-      languages: ['angular','mongo','nodejs','mean'],
+        "Online web to send orders of item list to sellers and track it until delivery",
+      languages: ['react','nestjs','postgres','heroku'],
 	},
 	{
 		name: "Social Media Application",
-		date: "2020",
+		date: "2020-February To 2020-May",
 		url: "https://github.com/EANimesha",
 		description:
-		  "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
-		languages: ['angular','mongo','nodejs'],
+		  "Social media application for teenagers to  share their posts and like,unlike and comment to posts ",
+		languages: ['react','nodejs','firebase','firebasefun'],
 	  },
 	  {
-		name: "Blood Donation App2",
-		date: "2018",
+		name: "GPA Calculating App",
+		date: "2019",
 		url: "https://github.com/EANimesha",
 		description:
-		  "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
-		languages: ['flutter','firebasefun','nodejs'],
+		  "A mobile application to calculate the GPA of University students and store the last entered data to subjects ",
+		languages: ['flutter','bloc','flutter1'],
 	  },
 	  {
-		name: "Blood Donation App3",
-		date: "2018",
+		name: "Online shopping application",
+		date: "2018 November",
 		url: "https://github.com/EANimesha",
 		description:
-		  "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
-		languages: ['angular','mongo','nodejs'],
+		  "client side and admin side online shopping system.(Academic,Individual) ",
+		languages: ['html','css','php'],
 	  },
 	]
 };

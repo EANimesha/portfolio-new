@@ -7,17 +7,10 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
-    background: 'linear-gradient(45deg, #e8d492 30%, #fcb590 90%)'
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  pos: {
-    marginBottom: 12,
-  },
+    background: 'linear-gradient(45deg, #e8d492 30%, #fcb590 90%)',
+    padding:'2%',
+    width:'80%'
+  }
 });
 
 export default function ProjectCard(props) {
@@ -40,11 +33,12 @@ export default function ProjectCard(props) {
             )
         })}
         </div>
-        <Typography variant="body2" component="p">
-          well meaning and kindly.
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book
+        <CardContent>
+        <Typography variant="body2" component="p" >
+          {props.project.description}
           <p/>
         </Typography>
+        </CardContent>
         <Button variant="contained" color="secondary"><a href={props.project.url}>Github Code</a></Button>
       </CardContent>
     </Card>
