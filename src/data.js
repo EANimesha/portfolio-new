@@ -55,15 +55,15 @@ export const projects = {
     {
       name: "Blood Donation App",
       date: "2018",
-      url: "https://github.com/ashutosh1919/masterPortfolio",
+      url: "https://github.com/EANimesha",
       description:
         "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
-      languages: ['angular','mongo','nodejs'],
+      languages: ['angular','mongo','nodejs','mean'],
 	},
 	{
 		name: "Social Media Application",
 		date: "2020",
-		url: "https://github.com/ashutosh1919/masterPortfolio",
+		url: "https://github.com/EANimesha",
 		description:
 		  "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
 		languages: ['angular','mongo','nodejs'],
@@ -71,15 +71,15 @@ export const projects = {
 	  {
 		name: "Blood Donation App2",
 		date: "2018",
-		url: "https://github.com/ashutosh1919/masterPortfolio",
+		url: "https://github.com/EANimesha",
 		description:
 		  "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
-		languages: ['flutter','firebase','nodejs'],
+		languages: ['flutter','firebasefun','nodejs'],
 	  },
 	  {
 		name: "Blood Donation App3",
 		date: "2018",
-		url: "https://github.com/ashutosh1919/masterPortfolio",
+		url: "https://github.com/EANimesha",
 		description:
 		  "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
 		languages: ['angular','mongo','nodejs'],
