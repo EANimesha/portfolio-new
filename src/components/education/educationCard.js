@@ -5,6 +5,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { education } from "../../data";
+import './education.css';
 
 const useStyles = makeStyles({
   root: {
@@ -30,9 +31,17 @@ export default function EducationCard() {
     <div>
       {education.data.map((edu) => {
         return (
-          <div>
-            <Card className={classes.root}>
-              <CardContent>
+          <div className="card">
+          <div className="imageCard">
+              <img
+                src={require(`../../assets/icons/${edu.image}.png`)}
+                alt="react"
+                height="auto"
+                width="120"
+              />
+            </div>
+            <p className={classes.root}>
+              <div>
                 <Typography
                   className={classes.title}
                   color="textSecondary"
@@ -48,18 +57,11 @@ export default function EducationCard() {
                   {edu.description}
                   <p />
                 </Typography>
-              </CardContent>
-            </Card>
+              </div>
+            </p>
             <p />
-            <div>
-              <img
-                src="https://www.pinclipart.com/picdir/middle/69-696279_arrows-clipart-clear-background-up-arrow-png-download.png"
-                alt="react"
-                height="80"
-                width="80"
-              />
-            </div>
           </div>
+          
         );
       })}
     </div>

@@ -92,17 +92,20 @@ export const education = {
 		{
 			place:'University of Kelaniya 2018-Present',
 			name:'Bsc(hons) in Software Engineering- Level 3',
-			description:'Current GPA - 4.0 / 4.0'
+      description:'Current GPA - 4.0 / 4.0',
+      image:'Kelaniya'
 		},
 		{
 			place:'2016- GAMPAHA RATHNAVALI BALIKA VIDYALAYA',
 			name:'GCE A/L',
-			description:'Index no.1374990 (English Medium)(District Rank-2, Island rank-8)Combined Mathematics –A , Physics- A,	General English – B ICT –A'
+      description:'Index no.1374990 (English Medium)(District Rank-2, Island rank-8)Combined Mathematics –A , Physics- A,	General English – B ICT –A',
+      image:'rathnavali'
 		},
 		{
 			place:'2013-SAPUGASKANDA VISHAKA BALIKA VIDYALAYA',
 			name:'GCE O/L',
-			description:'8A passes & 1B pass (in English Medium)'
+      description:'8A passes & 1B pass (in English Medium)',
+      image:'vishaka'
 		}
 	]
 };
