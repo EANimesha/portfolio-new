@@ -18,27 +18,34 @@ export const skills = {
         "⚡ Building resposive website front end using React-Redux",
         "⚡ Design Web frontend Attractively",
       ],
+      icons:['angular','react','html','css']
     },
     {
       title: "Mobile App Development",
       imagePath: "339674-PAVV1D-900.jpg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter and solo android apps using Kotlin",
+        "⚡ Designing Mobile UI with Figma",
+        "⚡ Developing mobile applications using Flutter and  android apps using Kotlin",
       ],
+      icons:['flutter','android','figma']
     },
     {
-      title: "Backend Developer",
+      title: "Backend Development",
       imagePath: "backend_developer.jpg",
       skills: ["⚡ Creating application backend in Node, Express & NestJs"],
+      icons:['nodejs','nestjs']
     },
     {
-      title: "Machine Learning And Cloud Developer",
-      imagePath: "backend_developer.jpg",
+      title: "Other Skills",
+      imagePath: "web_dev.svg",
       skills: [
-        "⚡ Datacamp Certifications",
-        "⚡ Google Cloud Training Quest Badges",
+        "⚡ IoT and Arduino",
+        "⚡ Cloud Computing",
+        "⚡ Blogger",
+        "⚡ Open Source Contributing",
+        "⚡ Freelancing",
       ],
+      icons:['arduino','heroku']
     },
   ],
 };
